@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<title>Maro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+var histlength=history.length;history.go(-histlength 2);
+</script>
+
+<h1 id="msgs">Maro</h1>
+
+<br>
+
+<div id="menu">
+<h1 style="font-size: 18px;color: yellow;">امانه عليك تصلي علي حبيبك النبي</h1>
+
+<button class="btn btn-multi"
+onmouseover="msgs.innerHTML='مستضيف GoldHEN لأنظمة PS4 من 5.05 إلى 14.00 - اختيار التهكير تلقائياً'"
+onmouseout="msgs.innerHTML='Maro'"
+onclick="location.replace('g2all/index.html')">
+GoldHEN جميع الاصدارات
+</button>
+
+<button class="btn"
+onmouseover="msgs.innerHTML='مستضيف PS4 إصدار 5.05 - النسخة 2.5'"
+onmouseout="msgs.innerHTML='Maro'"
+onclick="location.replace('505/index.html')">
+إصدار 5.05 النسخة 2.5
+</button>
+
+<a href="672goldhen/index.html">
+<button class="btn"
+onmouseover="msgs.innerHTML='مستضيف GoldHEN لنظام PS4 إصدار 6.72'"
+onmouseout="msgs.innerHTML='Maro'">
+GoldHEN إصدار 6.72
+</button>
+</a>
+
+<a href="672/index.html">
+<button class="btn"
+onmouseover="msgs.innerHTML='مستضيف PS4 إصدار 6.72 - النسخة 3.0'"
+onmouseout="msgs.innerHTML='Maro'">
+إصدار 6.72 النسخة 3.0
+</button>
+</a>
+
+<br>
+
+<a href="900goldhen/index.html">
+<button class="btn"
+onmouseover="msgs.innerHTML='مستضيف GoldHEN لنظام PS4 إصدار 9.00'"
+onmouseout="msgs.innerHTML='Maro'">
+GoldHEN إصدار 9.00
+</button>
+</a>
+
+<a href="900v3/index.html">
+<button class="btn"
+onmouseover="msgs.innerHTML='مستضيف PS4 إصدار 9.00 - النسخة 3.0'"
+onmouseout="msgs.innerHTML='Maro'">
+إصدار 9.00 النسخة 3.0
+</button>
+</a>
+
+<br>
+
+<button class="btn"
+onmouseover="msgs.innerHTML='استعادة المستضيف إلى دليل المستخدم دون الحاجة إلى DNS'"
+onmouseout="msgs.innerHTML='Maro'"
+onclick="location.replace('restore/index.html')">
+استعادة المستضيف
+</button>
+
+<br>
+
+<button class="btn btn-onln"
+onmouseover="msgs.innerHTML='"
+onmouseout="msgs.innerHTML='Maro'"
+onclick="donations()"
+style="margin-top: 137px;margin-bottom: 77px;width: 468px;">
+اضغط هنا لمتابعة صفحاتي على مواقع التواصل الاجتماعي
+</button>
+
+<h1 style="margin-top: 78px;">
+</a>
+
+</h1>
+</div>
+
+<div id="crypto">
+
+<h1 style="font-size: 18px;color: yellow;"> (BTC):</h1>
+
+<br>
+
+<h1 style="font-size: 18px;color: yellow;"> (ETH):</h1>
+<img src="eth.jpg" width="150" height="150">
+
+<h1 style="font-size: 18px;">
+0x7Ae1825ddE196925dB8B7832F436cA0eAeaF932c
+</h1>
+
+<button class="btn" onclick="load_menu()">العودة</button>
+
+</div>
+
+<script>
+function donations(){
+document.getElementById("crypto").style.display = "block";
+document.getElementById("menu").style.display = "none";
+}
+
+function load_menu(){
+document.getElementById("menu").style.display = "block";
+document.getElementById("crypto").style.display = "none";
+}
+</script>
+
+</body>
+</html>
